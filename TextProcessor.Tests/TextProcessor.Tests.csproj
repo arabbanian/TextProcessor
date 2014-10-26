@@ -54,9 +54,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TextProcessor\TextProcessor.csproj">
+    <ProjectReference Include="..\TextProcessor.DomainClasses\TextProcessor.DomainClasses.csproj">
       <Project>{B8A886DB-4B67-424A-B979-1AF5DA767E6B}</Project>
-      <Name>TextProcessor</Name>
+      <Name>TextProcessor.DomainClasses</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

@@ -94,9 +94,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TextProcessor\TextProcessor.csproj">
-      <Project>{b8a886db-4b67-424a-b979-1af5da767e6b}</Project>
-      <Name>TextProcessor</Name>
+    <ProjectReference Include="..\TextProcessor.DomainClasses\TextProcessor.DomainClasses.csproj">
+      <Project>{B8A886DB-4B67-424A-B979-1AF5DA767E6B}</Project>
+      <Name>TextProcessor.DomainClasses</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
