@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TextProcessor
+﻿namespace TextProcessor
 {
-    public interface IWordAnalyzer
+    public interface IWordFrequency
     {
         /// <summary>
         /// Get the Word value

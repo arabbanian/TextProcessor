@@ -14,7 +14,7 @@ namespace TextProcessor.UI
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            IEnumerable<IWordAnalyzer> result = new WordFrequencyAnalyzer().AlalyzeFrequencyForWord(InputTextBox.Text);
+            IEnumerable<IWordFrequency> result = new WordFrequencyAnalyzer().AlalyzeFrequencyForWord(InputTextBox.Text);
             foreach (var wordAnalyzer in result)
             {
                 DestinationList.Items.Add((string.Format("Word '{0}' occurred: {1}", wordAnalyzer.Word, wordAnalyzer.Frequency)));

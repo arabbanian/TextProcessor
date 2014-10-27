@@ -1,15 +1,13 @@
-﻿using System;
-
-namespace TextProcessor
+﻿namespace TextProcessor
 {
-    public class WordAnalyzer:IWordAnalyzer
+    public class WordFrequency:IWordFrequency
     {
         /// <summary>
-        /// Initiliaze the WordAnalyzer class and set the 'Word' and 'Frequency' properties.
+        /// Initiliaze the WordFrequency class and set the 'Word' and 'Frequency' properties.
         /// </summary>
         /// <param name="word"></param>
         /// <param name="frequency"></param>
-        public WordAnalyzer(string word, int frequency)
+        public WordFrequency(string word, int frequency)
         {
             Frequency = frequency;
             Word = word;
@@ -22,8 +20,6 @@ namespace TextProcessor
         /// Gets the Frequency.
         /// </summary>
         public int Frequency { get; private set; }
-
-
     }
 
 }

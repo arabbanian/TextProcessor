@@ -13,14 +13,14 @@ namespace TextProcessor.Tests
         {
             //Arrange
             const string inputText = "This is a statement, and so is this.";
-            var wordAnalyzer = new List<WordAnalyzer>
+            var wordAnalyzer = new List<WordFrequency>
             {
-                new WordAnalyzer("this", 2),
-                new WordAnalyzer("is", 2),
-                new WordAnalyzer("a", 1),
-                new WordAnalyzer("statement", 1),
-                new WordAnalyzer("so", 1),
-                new WordAnalyzer("is", 1),
+                new WordFrequency("this", 2),
+                new WordFrequency("is", 2),
+                new WordFrequency("a", 1),
+                new WordFrequency("statement", 1),
+                new WordFrequency("so", 1),
+                new WordFrequency("is", 1),
             };
             
             //Act

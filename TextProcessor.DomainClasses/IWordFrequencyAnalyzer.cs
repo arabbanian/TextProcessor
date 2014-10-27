@@ -13,7 +13,7 @@ namespace TextProcessor
         /// </summary>
         /// <param name="text"></param>
         /// <returns>A distinct list of words in the input text</returns>
-        IEnumerable<WordAnalyzer> AlalyzeFrequencyForWord(string text);
+        IEnumerable<WordFrequency> AlalyzeFrequencyForWord(string text);
 
     }
 
